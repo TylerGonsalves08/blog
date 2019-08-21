@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles
   get 'dogs/index'
   get 'dogs/show'
   get 'dogs/new'
