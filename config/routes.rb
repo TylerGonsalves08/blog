@@ -9,5 +9,4 @@ Rails.application.routes.draw do
   get 'welcome/about', to: 'welcome#about'
   get 'pages/alphablog', to: 'pages#alphablog'  
 
-
 end

@@ -1,4 +1,0 @@
-class Arctic < ApplicationRecord
-
-
-end
