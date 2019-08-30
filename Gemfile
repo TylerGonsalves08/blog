@@ -11,6 +11,7 @@ gem 'rails', '~> 6.0.0'
 gem 'puma', '~> 3.11'
 gem "thin"
 # Use SCSS for stylesheets
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
@@ -30,7 +31,6 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
-gem 'sqlite3', '~> 1.4'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
