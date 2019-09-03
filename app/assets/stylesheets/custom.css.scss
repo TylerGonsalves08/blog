@@ -1,3 +1,5 @@
+$navbar-default-bg: #08088A;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -13,4 +15,14 @@
 #logo:hover {
     color: #700;
     text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: asset-url('privacy.png');
+    background-size: cover;
+    height: 500px;
 }
