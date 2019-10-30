@@ -11,7 +11,7 @@ gem 'rails', '~> 6.0.0'
 gem 'puma', '~> 3.11'
 gem "thin"
 # Use SCSS for stylesheets
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '~> 5'
 gem 'jquery-rails'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
